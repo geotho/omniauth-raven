@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'omniauth', '~> 1.0'
 
 
-  gem.name          = "omniauth-raven-mod"
+  gem.name          = "omniauth-raven"
   gem.version       = Omniauth::Raven::VERSION
   gem.authors       = ["Lucian Carata", "George Thomas"]
   gem.email         = ["lc525@cam.ac.uk", "gt319@cam.ac.uk"]
