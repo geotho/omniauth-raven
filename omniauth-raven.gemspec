@@ -8,13 +8,13 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'omniauth', '~> 1.0'
 
 
-  gem.name          = "omniauth-raven"
+  gem.name          = "omniauth-raven-mod"
   gem.version       = Omniauth::Raven::VERSION
-  gem.authors       = ["Lucian Carata"]
-  gem.email         = ["lc525@cam.ac.uk"]
+  gem.authors       = ["Lucian Carata", "George Thomas"]
+  gem.email         = ["lc525@cam.ac.uk", "gt319@cam.ac.uk"]
   gem.description   = "Omniauth provider for Raven"
   gem.summary       = "Implements an Omniauth provider for Raven, the central web authentication service at the University of Cambridge"
-  gem.homepage      = "https://github.com/lc525/omniauth-raven"
+  gem.homepage      = "https://github.com/geotho/omniauth-raven"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

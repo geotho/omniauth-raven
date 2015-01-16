@@ -22,9 +22,9 @@ module OmniAuth
 
 	    option :raven_opt, {
 	        :url => 'https://raven.cam.ac.uk/auth/authenticate.html',
-	        :version => '1',
-	        :desc => 'DTG Gitlab',
-	        :msg => 'you are required to authenticate with Raven to access Gitlab',
+	        :version => '3',
+	        :desc => 'Peterhouse May Ball',
+	        :msg => 'you are required to authenticate with Raven to access Peterhouse May Ball',
 	        :iact => '', # 'yes' to force auth, 'no' to succeed only if no interraction needs to take place
 	        :aauth => '',
 	        :fail => 'no',
